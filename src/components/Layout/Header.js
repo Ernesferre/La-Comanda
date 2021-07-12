@@ -1,13 +1,14 @@
 import React from 'react'
 import comida from '../../assets/comida.jpg';
 import classes from './Header.module.css';
+import HeaderCartButton from './HeaderCartButton';
 
 const Header = () => {
     return (
         <div>
             <header className={classes.header}>
-                <h1>Comidas</h1>
-                <button> Cart </button>
+                <h1>La Comanda</h1>
+                <HeaderCartButton />
             </header>
 
             {/* imagen */}
