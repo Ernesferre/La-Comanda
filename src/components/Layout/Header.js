@@ -3,12 +3,12 @@ import comida from '../../assets/comida.jpg';
 import classes from './Header.module.css';
 import HeaderCartButton from './HeaderCartButton';
 
-const Header = () => {
+const Header = (props) => {
     return (
         <div>
             <header className={classes.header}>
                 <h1>La Comanda</h1>
-                <HeaderCartButton />
+                <HeaderCartButton onClick={props.onShowCart} />
             </header>
 
             {/* imagen */}

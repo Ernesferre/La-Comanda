@@ -4,7 +4,7 @@ import { AiOutlineShoppingCart } from 'react-icons/ai';
 
 const HeaderCartButton = (props) => {
     return (
-        <button className={classes.button}>
+        <button className={classes.button} onClick={props.onClick}>
             <span className={classes.icon}> 
                 <AiOutlineShoppingCart /> 
             </span>
