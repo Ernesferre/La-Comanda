@@ -34,6 +34,7 @@ const ComidasDisponibles = () => {
     const listaComidas = COMIDAS_FICTICIAS.map((item) => (
         <ComidaItem 
             key={item.id} 
+            id={item.id}
             name={item.name}
             description={item.description}
             price={item.price}
