@@ -5,27 +5,27 @@ import classes from './ComidasDisponibles.module.css';
 const COMIDAS_FICTICIAS = [
     {
       id: 'm1',
-      name: 'Sushi',
-      description: 'Finest fish and veggies',
-      price: 22.99,
+      name: 'Pastrami Neyorkino',
+      description: 'Sanwich de pastron casero ahumado, queso pategras fundido y mostaza de dijon casera',
+      price: 550,
     },
     {
       id: 'm2',
-      name: 'Schnitzel',
-      description: 'A german specialty!',
-      price: 16.5,
+      name: 'Pork ribs',
+      description: 'Ribs de cerdo ahumada 4 horas a baja temperatura',
+      price: 750,
     },
     {
       id: 'm3',
-      name: 'Barbecue Burger',
-      description: 'American, raw, meaty',
-      price: 12.99,
+      name: 'Smoked bondiola',
+      description: 'Bondiola de cerdo ahumada 5 horas y terminada en reduccion de cerveza negra',
+      price: 770,
     },
     {
       id: 'm4',
-      name: 'Green Bowl',
-      description: 'Healthy...and green...',
-      price: 18.99,
+      name: 'Cibatta de picaña',
+      description: 'PAn ciabatta, cuadril ahumado y marinado, morrones asados, rucula y mayonesa casera',
+      price: 620,
     }
 ]
 
